@@ -194,60 +194,30 @@ body {
 .bgimage {
   width:100%;
   height:500px;
-  background: url("../images/A_GFY_NA_Master_POS_Image_background_landscape__NA_NA_COCONUT_NA_NA_NA_HR_1\ 1\ \(3\).png");
+  background: url("../images/bg--desktop.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .bgimage {
-    /* width:100%; */
-    height:900px;
-    background: url("../images/A_GFY_NA_Master_POS_Image_background_landscape__NA_NA_COCONUT_NA_NA_NA_HR_1\ 1\ \(4\).png")!important;
+    width:100%;
+    height: 1000px !important;
+    background: url("../images/bg--mobile.png")!important;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-   
+    
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .takepart {
-  /* background-color: #41B9B6; */
   margin-top: 50px;
   width: 94%;
   margin: auto 3%;
   border-radius: 20px;
-  /* padding: auto 10%; */
 }
-
-/* .takepart .container div {
-  background-color: #41B9B6;
-} */
 
 .takepart h1 {
   color: #FFFFFF !important;
@@ -260,6 +230,7 @@ body {
   width: 100%;
   text-align: center;
   margin-bottom: 40px;
+  text-transform: uppercase  !important;
 }
 
 .takepart p {
@@ -269,15 +240,11 @@ body {
   color: #FFFFFF !important;
 }
 
-
-
-
-
-
 /* prisy section */
 
 .prisy-section {
   margin-top: 70px;
+  text-transform: uppercase  !important;
 }
 
 .prisy-section h2 {
@@ -329,6 +296,7 @@ body {
   text-align: center;
   color: #021D6D !important;
   margin-bottom: 20px;
+  text-transform: uppercase  !important;
 }
 
 .insta img {
@@ -365,14 +333,6 @@ body {
   top: -100px;
 }
 
-/* css form */
-
-/* .allcontactstyle {
-  width:60% !important;
-  margin-left: 20%;
-  margin-right: 20%;
-} */
-
 /*  footer */
 
 footer {
@@ -402,23 +362,21 @@ footer {
 }
 
 .formore li a {
-  text-decoration: none;
   line-height: 1.2;
   text-decoration: none;
   color: rgb(231, 231, 231);
   font-size: 18px;
 }
 
-/* hr {
-  width: 90%;
-  margin: auto 10%;
-  color: rgb(26, 124, 173);
-  height:1px;
-  opacity: 0.4;
-} */
+.formore2 li a {
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+}
 
 .formore2 li {
   display: inline;
+  font-size: 13px;
+  list-style: none;
 }
 
 /*---------------------------
